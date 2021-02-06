@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width , initial-scale=1" >
+              <title>Traveling</title>
+
+              <style>
+                  #total-body{
+                     width: 100%;
+                     height: 100%;
+                     margin: auto;
+                     font-family: sans-serif;
+                  }
+                  div.nav{
+                      width:700px;
+                      margin: 0 auto;
+                  }
+                 
+                  div.nav > ul{
+
+                           display: flex;
+                           list-style-type: none;
+                  }
+                  div.nav > ul > li{
+                      margin:0px 20px;
+                  }
+                  div.nav > ul > li > a{
+                       text-decoration: none;
+                       text-align: center;
+                       font-size: 10px;
+                    
+                  }
+                 div.nav > ul > li > a:hover{
+                        color:rgb(255, 17, 0);
+                        border-top:2px solid rgb(255, 17, 0);
+                        padding-top: 10px;
+                        font-size: 15px;
+
+                  }
+                  div.container{
+                                      width: 100%;
+                                      height: 100%;
+                                      margin: auto;
+                                      border-collapse: collapse;
+                  }
+                
+                    div.container >.img{
+                           border: 1px solid gray;
+                           box-sizing: border-box;
+                           width: 100%;
+                           height: 100%;
+                           margin: 0 auto;
+                           background-repeat: no-repeat;
+                           position: relative;
+                  }
+                    div.container > .img > .travel {
+                           border: 1px groove red;
+                           width: 80px;
+                           height: 35px;
+                           margin:auto;
+                           text-align: center;
+                           font-size: 8px;
+                           color: white;
+                           background-color: orangered;
+                           padding: 0px 15px;    
+
+                  } 
+                  .phase {
+                          
+                            border: 3px solid grba(201, 183, 183,1);
+                            width:450px;
+                            background-color: rgba(165, 222, 245,2);
+                            height: 50px;
+                            font-size: 10px;
+                            margin: 10px auto;
+                            text-align: center;
+                            color:white;
+                            padding: 15px; 
+                            display: flex;
+
+                  }
+                  .phase,p{
+                          width: 450px;
+                          margin: 10px auto;
+                  }
+                  .button {
+                      position: absolute;
+                       margin-left: 450px;
+                      display:inline;
+                      margin-top: 50px;
+                      padding: 20px;
+              }
+              
+              .suspend{
+                            width: 100%;
+                          text-align: center;
+              }
+             
+              .pera{
+                                text-align: center;
+                            border-top: 1px solid orangered;
+
+              }
+              .service{
+                     
+                     width: 100%;
+                     height: 100%;
+
+                     margin:25px 25px;
+                     background-color: rgba(248, 236, 236,0.9);
+                     position: relative;
+
+
+              }
+              .service > .t-image{
+                  display: inline-flex;
+                  margin: auto;
+                  width: 100%;
+                  height: 100%;
+                  box-sizing: border-box;
+
+
+              }
+              .service, .t-image, .image1, .image2, .image3{
+                            
+                           
+                           padding: 1px;
+                           text-align: center;
+                           box-sizing: border-box;
+
+
+              }
+                   
+              </style>
+       </head>
+              
+       <body>
+              <div id="total-body">
+                  <!-- navigation bar start -->
+               <div class="nav">
+                    <ul>
+                          <li><a href="#">HOME</a></li>
+                          <li><a href="#">PAGES</a></li>
+                          <li><a href="#">LEFT SIDE BAR</a></li>
+                          <li><a href="#">RIGHT SIDE BAR</a></li>
+                          <li><a href="#">FULL PAGE</a></li>
+                          <li><a href="#">CONTACT US</a></li>
+
+                    </ul>
+               </div>
+               <!-- navigain bar end -->
+               <div class="container">
+                      <div class="img">
+                          <div class="travel">
+                             <h1>TRAVEL</h1>
+                          </div>
+                          <div class="phase">
+                              <h2>PHASELLUS </h2> <h2 style="color: rgb(192, 35, 7);"> ULTRICS </h2><h2> ELEIFEND </h2><h2 style="color: rgb(192, 35, 7);">COMMONDO</h2> <h2> GRAVIDA</h2> 
+                           </div>
+                              <p>Jobs fill your pockets, adventures fill your soul.”
+                            “Remember that happiness is a way of travel, not a destination.”
+                            “The world is a book and those who do not travel read only one page.”</p>
+                             
+                            <div class="button">
+                                <input type="button" value="get start">
+                                 <input type="button" value="read more">
+                            </div>
+                             <img src="travel.jpg" alt="callage" width="100%" height="250px">
+                             
+                      </div>
+
+
+               </div>
+
+                <div class="suspend">
+                    <h2 class="header">Suspendisses vulpulate sapien amet field</h2>
+                    <p class="pera">“Remember that happiness is a way of travel, not a destination.”
+                    “The world is a book and those who do not travel read only one page.</p>
+                    <input style="background-color: tomato; color: white;" type="button" value="read more">
+                </div>
+                 <div class="service">
+                              <h2 style="text-align:center; font-family: cursive;">OUR SERVICES</h2> 
+                              <div class="t-image">
+                              <div class="image1">  
+                              <img src="images1.jpg" alt="img1"> 
+                                <h3>Moderan Design</h3>
+                                <p>The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position</p>
+                                <input type="button" value="read more">
+                              </div>
+                              <div class="image2"> 
+                              <img src="images2.jpg"  alt="img2">
+                              <h3>High qualiy</h3>
+                              <p>The element is positioned relative to its normal position, so "left:20px" adds 20 pixels to the element's LEFT position</p>
+                              <input type="button" value="read more">
+
+                              </div>
+                              <div class="image3">
+                              <img src="images3.jpg"  alt="img3">
+                              <h3>Quick support</h3>
+                              <p>The element is positioned relative to its adds 20 pixels to the element's LEFT position</p>
+                              <input type="button" value="read more">
+
+                            </div>
+                        </div>
+
+                 </div>
+             </div>
+
+             
+       </body>
+
+</html>
